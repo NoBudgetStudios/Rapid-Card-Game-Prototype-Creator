@@ -13,15 +13,22 @@ def main():
     card_list_in = TextManager.read_cards(cards_file_url)
     # Create the cards table if it doesn't exist
     DbManager.create_db_if_not_exists()
-
+    read_cards = False
     card_list = []
-    
-    for i in range(len(card_list_in)):
-        new_card = generate_random_card(card_list_in[i], random_title = True, random_subtitle = True, random_stats = True)
-        card_list.append(new_card)
-        DbManager.insert_card(new_card)
+    if read_cards:
+        for i in range(len(card_list_in)):
+            new_card = generate_random_card(card_list_in[i], random_title = True, random_subtitle = True, random_stats = True)
+            card_list.append(new_card)
+            DbManager.insert_card(new_card)
 
-        CardDesigner.design_card(new_card)
+            CardDesigner.design_card(new_card)
+    else:
+        for i in range(int(input('Card Number: '))):
+            new_card = generate_random_card(random_title = True, random_subtitle = True, random_stats = True)
+            card_list.append(new_card)
+            DbManager.insert_card(new_card)
+
+            CardDesigner.design_card(new_card)
         
     JsonManager.export_cards_to_json(card_list)
 
@@ -46,19 +53,24 @@ def generate_random_subtitle():
     subtitle = ''.join(random.choices(subtitles)).capitalize()
     return subtitle
 
-def generate_random_card(card, random_title = False, random_subtitle = False, random_stats = False):
+def generate_random_card(card = None, random_title = False, random_subtitle = False, random_stats = False):
     # Generating random values for attributes
-    if not random_title:
-        title = card.get_title()
-    else:
+    if not random_title or card == None:
         title = generate_random_title(syllable_count=random.randint(2, 3))
-    if not random_subtitle:
-        subtitle = card.get_subtitle()
     else:
+        title = card.get_title()
+        
+    if random_subtitle or card == None:
         subtitle = generate_random_subtitle()
-    subtitle = ''
-    text = card.get_text()
-    if random_stats:
+    else:
+        subtitle = card.get_subtitle()
+
+    if card == None:    
+        text = ''
+    else:
+        text = card.get_text()
+        
+    if random_stats or card == None:
         attack_value = random.randint(1, 6)
         range_value = random.randint(1, 6)
         defense_value = random.randint(1, 6)
@@ -71,8 +83,12 @@ def generate_random_card(card, random_title = False, random_subtitle = False, ra
         speed_value = -1
         value = -1
 
-    layout_url = card.get_layout_url()
-    artwork_url = card.get_artwork_url()
+    if card == None:
+        layout_url = ''
+        artwork_url = ''
+    else:
+        layout_url = card.get_layout_url()
+        artwork_url = card.get_artwork_url()
 
     # Creating and returning a Card object with the generated values
     return Card.Card(title, subtitle, text, value, attack_value, range_value, defense_value, speed_value, layout_url, artwork_url)

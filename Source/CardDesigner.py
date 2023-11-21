@@ -93,7 +93,7 @@ def design_card(card):
     #artwork_image = import_image( '.\\..\\Images\\Artwork\\t.png' )
     print(card.get_title())
     #artwork_image = artwork_url + import_image(get_random_file(artwork_url))
-    if random_images == True:
+    if random_images == True or len(card.get_artwork_url) > 0:
         artwork_image = import_image( artwork_url + get_random_file(artwork_url) )
     else:
         artwork_image = import_image( card.get_artwork_url() )
@@ -101,7 +101,11 @@ def design_card(card):
     artwork_image = resize_image(artwork_image, bg_image.size[0], bg_image.size[1])
     artwork_ready_image = overlay_images(bg_image, artwork_image)
 
-    layout_image = import_image(card.get_layout_url())
+    if len(card.get_layout_url()) > 0:
+        layout_image = import_image(card.get_layout_url())
+    else:
+        layout_image = import_image( layout_url + 'default_layout.png' )
+        
     layout_image = resize_image(layout_image, artwork_ready_image.size[0], artwork_ready_image.size[1])
     layout_ready_image = overlay_images(artwork_ready_image, layout_image)
     #show_image(layout_ready_image)
