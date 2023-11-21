@@ -1,7 +1,13 @@
 from PIL import Image, ImageDraw, ImageFont
+import os
+import random
 
+layout_url = '.\\..\\Images\\Layout\\'
+artwork_url = '.\\..\\Images\\Artwork\\'
 font_url = '.\\..\\Fonts\\Manrope.ttf'
 output_url = '.\\..\\Images\\Output\\'
+
+random_images = True
 
 def create_bg():
     # Dimensions in inches and DPI
@@ -68,16 +74,33 @@ def MakeCardTextPrintFriendly(string, max_characters_per_line):
 
     return "\n".join(lines)
 
+def get_random_file(path):
+    if not os.path.isdir(path):
+        return "Invalid path or path doesn't exist"
+
+    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
+    if not files:
+        return "No files found in the directory"
+
+    random_file = random.choice(files)
+    return random_file
+
 def design_card(card):
     global layout_url
     
     bg_image = create_bg()
-
-    print(card.get_artwork_url())
-    artwork_image = import_image(card.get_artwork_url())
+    
+    #artwork_image = import_image( '.\\..\\Images\\Artwork\\t.png' )
+    print(card.get_title())
+    #artwork_image = artwork_url + import_image(get_random_file(artwork_url))
+    if random_images == True:
+        artwork_image = import_image( artwork_url + get_random_file(artwork_url) )
+    else:
+        artwork_image = import_image( card.get_artwork_url() )
+        
     artwork_image = resize_image(artwork_image, bg_image.size[0], bg_image.size[1])
     artwork_ready_image = overlay_images(bg_image, artwork_image)
-    
+
     layout_image = import_image(card.get_layout_url())
     layout_image = resize_image(layout_image, artwork_ready_image.size[0], artwork_ready_image.size[1])
     layout_ready_image = overlay_images(artwork_ready_image, layout_image)
@@ -125,6 +148,10 @@ def design_card(card):
 
     final_image = texted_img
 
-    export_image(output_url + card.get_subtitle() + ' - ' + card.get_title() + '.png', final_image)
+    if len(card.get_subtitle()) > 0:
+        export_url = output_url + card.get_subtitle() + ' - ' + card.get_title() + '.png'
+    else:
+        export_url = output_url + card.get_title() + '.png'
+    export_image(export_url, final_image)
 
     #show_image(texted_img)
