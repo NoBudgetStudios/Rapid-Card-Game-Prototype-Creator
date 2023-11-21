@@ -1,0 +1,46 @@
+card_id|title|subtitle|text|value|attack_value|range_value|defense_value|speed_value|layout_url|artwork_url
+0|Hunter|Character|The number of the Actions each turn, is equal to the number of revealed Locations.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Character - Hunter.png
+1|Erie|Character|‘Hide’ is a free Action once per turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Character - Erie.png
+2|Henri|Character|‘Search’ is a free Action once per turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Character - Henri.png
+3|Nancy|Character|‘Free’ is a free Action once per turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Character - Nancy.png
+4|Ryan|Character|‘Move’ is a free Action once per turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Character - Ryan.png
+5|Tyler|Character|‘Interact’ is a free Action once per turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Character - Tyler.png
+6|Uma|Character|Uma gains the ability to see all hidden Characters.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Character - Uma.png
+7|Bolt Cutter|Item|Free a captured Character located in your Location.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Bolt Cutter.png
+8|Energy Drink|Item|You can play one more Turn immediately.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Energy Drink.png
+9|Flare Gun|Item|Choose a Location. Hunter cannot interact with other Locations unless they interact with it.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Flare Gun.png
+10|Key|Item|Unlock the Exit Door to escape.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Key.png
+11|Nothing|Item|Nothing happens.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Nothing.png
+12|Pepper Spray|Item|Escape from a Capture attempt.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Pepper Spray.png
+13|Rope|Item|Hunter cannot move the next turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Rope.png
+14|Stun Grenade|Item|Hunter loses their next turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Item - Stun Grenade.png
+15|Artifact Armored|Location|The Artifact Armored protects Characters within from one attack.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Artifact Armored.png
+16|Artifact Modest|Location|The Artifact Modest reveals the location of all hidden Characters.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Artifact Modest.png
+17|Artifact Royal|Location|The Artifact Royal grants an additional Action to the Character who reveals it.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Artifact Royal.png
+18|Artifact Stranger|Location|The Artifact Stranger causes a random event when interacted with.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Artifact Stranger.png
+19|Car Abandoned|Location|The Car Abandoned provides cover for hidden Characters.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Car Abandoned.png
+20|Car Broken|Location|The Car Broken may contain a useful item, but it's difficult to search.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Car Broken.png
+21|Car Deformed|Location|The Car Deformed hides Characters well but may collapse any time.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Car Deformed.png
+22|Car Lonely|Location|The Car Lonely is a safe spot for Characters to rest without fear of attacks.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Car Lonely.png
+23|Car Pressed|Location|The Car Pressed may contain a key item, but it's hard to access.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Car Pressed.png
+24|Car Smashed|Location|The Car Smashed provides temporary shelter but may collapse anytime.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Car Smashed.png
+25|Clock Armored|Location|The Clock Armored slows down the revealed Characters within it.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Clock Armored.png
+26|Clock Decorated|Location|The Clock Decorated reveals the location of hidden Characters nearby.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Clock Decorated.png
+27|Clock Modest|Location|The Clock Modest increases the speed of revealed Characters within it.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Clock Modest.png
+28|Clock Reinforced|Location|The Clock Reinforced protects Characters within from two attacks.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Clock Reinforced.png
+29|Clock Royal|Location|The Clock Royal grants an additional Action to the Character who reveals it.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Clock Royal.png
+30|Scrapolis Center|Location|Scrapolis Center description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Scrapolis Center.png
+31|Scrapolis Gate|Location|Scrapolis Gate description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Scrapolis Gate.png
+32|Scrapolis Mansion|Location|Scrapolis Mansion description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Scrapolis Mansion.png
+33|Scrapolis Ruins|Location|Scrapolis Ruins description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Scrapolis Ruins.png
+34|Scrapolis Suburbs|Location|Scrapolis Suburbs description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Scrapolis Suburbs.png
+35|Scrapolis Twin Wheels|Location|Scrapolis Twin Wheels description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Scrapolis Twin Wheels.png
+36|Scrapolis Whatchtower|Location|Scrapolis Whatchtower description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Scrapolis Whatchtower.png
+37|Statue Dragon|Location|Statue Dragon description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Statue Dragon.png
+38|Statue Horse|Location|Statue Horse description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Statue Horse.png
+39|Statue Lion|Location|Statue Lion description here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Statue Lion.png
+40|Light Switch|Special Location|When a Character Interacts with this Special Location: all the Characters are now Hidden.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Exit Door.png
+41|Cage|Special Location|When a Character is Captured, move them here.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Cage.png
+42|Door Switch|Special Location|When a Character who owns a Key Item, Interacts with this Special Location: the Exit Door opens.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Door Switch.png
+43|Camera Room|Special Location|When a Character Interacts with this Special Location: all the Characters are now Revealed.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Camera Room.png
+44|Exit Door|Special Location|When a Character Interacts with this Special Location: all the Characters are now Revealed.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\Location - Exit Door.png
