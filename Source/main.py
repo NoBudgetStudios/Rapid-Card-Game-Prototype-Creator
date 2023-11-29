@@ -3,6 +3,7 @@ import DbManager
 import JsonManager
 import TextManager
 import CardDesigner
+import PrintDesigner
 import random
 import string
 
@@ -13,7 +14,7 @@ def main():
     card_list_in = TextManager.read_cards(cards_file_url)
     # Create the cards table if it doesn't exist
     DbManager.create_db_if_not_exists()
-    read_cards = False
+    read_cards = True
     card_list = []
     if read_cards:
         for i in range(len(card_list_in)):
@@ -31,6 +32,9 @@ def main():
             CardDesigner.design_card(new_card)
         
     JsonManager.export_cards_to_json(card_list)
+
+    if(input("Make it printable? ") == 'y'):
+        PrintDesigner.DesignPrint()
 
 def generate_random_title(syllable_count=2):
     syllables = [
@@ -64,6 +68,8 @@ def generate_random_card(card = None, random_title = False, random_subtitle = Fa
         subtitle = generate_random_subtitle()
     else:
         subtitle = card.get_subtitle()
+
+    subtitle = ''
 
     if card == None:    
         text = ''
