@@ -13,7 +13,7 @@ class Card:
         self._speed_value = int(speed_value)
         self._layout_url = layout_url
         self._artwork_url = artwork_url
-
+        print(self._card_id)
         Card._id_counter += 1
 
     # Getters

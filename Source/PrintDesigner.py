@@ -53,7 +53,7 @@ def DesignPrint():
                 pdf.drawImage(png_files[imageIndex],
                               (width_px/2 - mtgCardSize_x/2)  + (i * mtgCardSize_x) + i*space,
                               (height_px/2 - mtgCardSize_y/2) + (j * mtgCardSize_y) + j*space)
-                print('Total .png files: ' + imageIndex)
+                print('Total .png files: ' + str(imageIndex))
                 imageIndex += 1
         pdf.showPage()
     '''

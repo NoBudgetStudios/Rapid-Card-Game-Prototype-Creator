@@ -1,13 +1,14 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 import random
+import datetime
 
 layout_url = '.\\..\\Images\\Layout\\'
 artwork_url = '.\\..\\Images\\Artwork\\'
 font_url = '.\\..\\Fonts\\Manrope.ttf'
 output_url = '.\\..\\Images\\Output\\'
 
-random_images = True
+random_images = False
 
 def create_bg():
     # Dimensions in inches and DPI
@@ -42,7 +43,7 @@ def import_image(image_path):
         img = Image.open(image_path)
         return img
     except FileNotFoundError:
-        print("Image file not found.")
+        print("Image file not found: " + image_path)
         return None
 
 def export_image(image_name, image):
@@ -54,7 +55,11 @@ def export_image(image_name, image):
 def SetText( img, position, text, font_url, font_size, font_color):
     selected_font = ImageFont.truetype(font_url, font_size)
     draw = ImageDraw.Draw(img)
-    draw.text(position, text, font=selected_font, fill=font_color)
+    '''
+    if '\n' in text:
+     print(text)
+    '''
+    draw.multiline_text(position, text, font=selected_font, fill=font_color)
     return img
 
 def MakeCardTextPrintFriendly(string, max_characters_per_line):
@@ -72,7 +77,8 @@ def MakeCardTextPrintFriendly(string, max_characters_per_line):
     if current_line:
         lines.append(current_line.strip())
 
-    return "\n".join(lines)
+    printFriendlyText = "\n".join(lines)
+    return printFriendlyText.replace('CHLN','\n\n')
 
 def get_random_file(path):
     if not os.path.isdir(path):
@@ -91,11 +97,12 @@ def design_card(card):
     bg_image = create_bg()
     
     #artwork_image = import_image( '.\\..\\Images\\Artwork\\t.png' )
-    print(card.get_title())
+    #print(card.get_title())
     #artwork_image = artwork_url + import_image(get_random_file(artwork_url))
-    if random_images == True or len(card.get_artwork_url) > 0:
+    if random_images == True and len(card.get_artwork_url()) > 0:
         artwork_image = import_image( artwork_url + get_random_file(artwork_url) )
     else:
+        #print(card.get_artwork_url())
         artwork_image = import_image( card.get_artwork_url() )
         
     artwork_image = resize_image(artwork_image, bg_image.size[0], bg_image.size[1])
@@ -151,11 +158,11 @@ def design_card(card):
     texted_img = SetText( texted_img, (size[0]/25, size[1]/1.075), '\nID: ' + str(card.get_card_id()), font_url, 20, (255, 255, 255))
 
     final_image = texted_img
-
+    #print(str(card.get_card_id()))
     if len(card.get_subtitle()) > 0:
-        export_url = output_url + card.get_subtitle() + ' - ' + card.get_title() + '.png'
+        export_url = output_url + str(card.get_card_id()) + '_' + card.get_subtitle() + '-' + card.get_title() + '.png'
     else:
-        export_url = output_url + card.get_title() + '.png'
+        export_url = output_url + str(card.get_card_id()) + '_' + card.get_title()+ '.png'
     export_image(export_url, final_image)
 
     #show_image(texted_img)
