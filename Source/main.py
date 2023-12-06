@@ -20,8 +20,6 @@ def main():
     if read_cards:
         card_list = card_list_in
         for card in card_list:
-            #new_card = generate_card(card_list_in[i], random_title = False, random_subtitle = False, random_stats = False)
-            #card_list.append(new_card)
             DbManager.insert_card(card)
 
             CardDesigner.design_card(card)
