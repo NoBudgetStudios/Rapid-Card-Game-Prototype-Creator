@@ -52,15 +52,13 @@ def export_image(image_name, image):
     image.save(export_path, "PNG")
     return export_path
 
-def SetText( img, position, text, font_url, font_size, font_color):
-    selected_font = ImageFont.truetype(font_url, font_size)
-    draw = ImageDraw.Draw(img)
-    '''
-    if '\n' in text:
-     print(text)
-    '''
-    draw.multiline_text(position, text, font=selected_font, fill=font_color)
-    return img
+def LoadFont(fontUrl, size):
+    return ImageFont.truetype(fontUrl, size)
+
+def SetText( image, xy, text, text_fill=None, text_font=None, text_anchor=None, text_spacing=0, text_align='left'):#img, position, text, font_url, font_size, font_color):
+    draw = ImageDraw.Draw(image)
+    draw.multiline_text(xy, text, fill=text_fill, font=text_font, anchor=text_anchor, spacing=text_spacing, align=text_align)
+    return image
 
 def MakeCardTextPrintFriendly(string, max_characters_per_line):
     words = string.split()
@@ -118,11 +116,11 @@ def design_card(card):
     #show_image(layout_ready_image)
 
     size = layout_ready_image.size
-
+    #xy, text, fill=None, font=None, anchor=None, spacing=0, align=”left”)
     #title
     if len(card.get_title()) > 0:
-        texted_img = SetText( layout_ready_image, (size[0]/25, size[1]/75), card.get_title(), font_url, 50, (255, 255, 255))
-    #subtitle
+        texted_img = SetText( layout_ready_image, (size[0]/25, size[1]/75), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 50))
+    '''#subtitle
     if len(card.get_subtitle()) > 0:
         texted_img = SetText( texted_img, (size[0]/25, size[1]/13), card.get_subtitle(), font_url, 30, (255, 255, 255))
     #value
@@ -139,7 +137,8 @@ def design_card(card):
         texted_img = SetText( texted_img, (size[0]/2 + 50, size[1]/1.15), 'Def: ' + str(card.get_defense_value()), font_url, 35, (255, 255, 255))
     if card.get_speed_value() >= 0:
         texted_img = SetText( texted_img, (size[0]/2 + 200, size[1]/1.15), 'Spe: ' + str(card.get_speed_value()), font_url, 35, (255, 255, 255))
-
+    '''
+    #old
     '''
     #stats
     statsText = 'Atk: {0}\nRng: {0}\nDfs: {1}\nSpd: {2}'.format(
@@ -155,7 +154,7 @@ def design_card(card):
     #texted_img = SetText( texted_img, (size[0]/1.25, size[1]/1.35), statsText, font_url, 40, (255, 255, 255))
     texted_img = SetText( texted_img, (size[0]/8, size[1]/1.15), statsText, font_url, 35, (255, 255, 255))'''
     #cardId
-    texted_img = SetText( texted_img, (size[0]/25, size[1]/1.075), '\nID: ' + str(card.get_card_id()), font_url, 20, (255, 255, 255))
+    #texted_img = SetText( texted_img, (size[0]/25, size[1]/1.075), '\nID: ' + str(card.get_card_id()), font_url, 20, (255, 255, 255))
 
     final_image = texted_img
     #print(str(card.get_card_id()))
