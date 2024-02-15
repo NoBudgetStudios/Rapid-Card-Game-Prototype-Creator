@@ -1,0 +1,41 @@
+[
+    {
+        "card_id": 0,
+        "title": "Hunter",
+        "subtitle": "Character",
+        "text": "The number of the Actions each turn, is equal to the number of revealed Locations.",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\default_layout.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\artwork (1).png"
+    },
+    {
+        "card_id": 1,
+        "title": "Erie",
+        "subtitle": "Character",
+        "text": "\u2018Hide\u2019 is a free Action once per turn.",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\default_layout.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\artwork (2).png"
+    },
+    {
+        "card_id": 2,
+        "title": "Henri",
+        "subtitle": "Character",
+        "text": "\u2018Search\u2019 is a free Action once per turn.",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\default_layout.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\artwork (3).png"
+    }
+]

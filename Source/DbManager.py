@@ -1,8 +1,8 @@
 import sqlite3
 
-def create_db_if_not_exists():
+def create_db_if_not_exists(path):
     # Connect to SQLite database (creates if not exists)
-    conn = sqlite3.connect('cards.db')
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     # Create a table for cards if it doesn't exist
@@ -26,8 +26,8 @@ def create_db_if_not_exists():
     conn.commit()
     conn.close()
 
-def insert_card(card):
-    conn = sqlite3.connect('cards.db')
+def insert_card(path, card):
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -38,8 +38,8 @@ def insert_card(card):
     conn.commit()
     conn.close()
 
-def get_card_by_id(card_id):
-    conn = sqlite3.connect('cards.db')
+def get_card_by_id(path, card_id):
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -54,8 +54,8 @@ def get_card_by_id(card_id):
         return Card(*card_data)
     return None
 
-def update_card(card):
-    conn = sqlite3.connect('cards.db')
+def update_card(path, card):
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -66,8 +66,8 @@ def update_card(card):
     conn.commit()
     conn.close()
 
-def delete_card(card_id):
-    conn = sqlite3.connect('cards.db')
+def delete_card(path, card_id):
+    conn = sqlite3.connect(path)
     cursor = conn.cursor()
 
     cursor.execute('''

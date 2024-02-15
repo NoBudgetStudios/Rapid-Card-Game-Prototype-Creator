@@ -75,3 +75,5 @@ def DesignPrint():
     # Save the PDF file
     pdf.save()
 
+    input("\n\nPRESS [ENTER] TO EXIT.")
+

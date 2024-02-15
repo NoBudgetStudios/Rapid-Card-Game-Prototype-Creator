@@ -95,7 +95,7 @@ def design_card(card):
     bg_image = create_bg()
     
     #artwork_image = import_image( '.\\..\\Images\\Artwork\\t.png' )
-    #print(card.get_title())
+    print("Image Exported: " + card.get_title())
     #artwork_image = artwork_url + import_image(get_random_file(artwork_url))
     if random_images == True and len(card.get_artwork_url()) > 0:
         artwork_image = import_image( artwork_url + get_random_file(artwork_url) )

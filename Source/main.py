@@ -10,17 +10,19 @@ import string
 def main():
 
     cards_file_url = '.\\..\\data\\cards.txt'
+    db_path = '.\\..\\data\\cards.db'
+    json_path = '.\\..\\data\\cards.json'
 
     card_list_in = TextManager.read_cards(cards_file_url)
     
     # Create the cards table if it doesn't exist
-    DbManager.create_db_if_not_exists()
+    DbManager.create_db_if_not_exists(db_path)
     read_cards = True
     card_list = []
     if read_cards:
         card_list = card_list_in
         for card in card_list:
-            DbManager.insert_card(card)
+            DbManager.insert_card(db_path, card)
 
             CardDesigner.design_card(card)
     else:
@@ -31,7 +33,7 @@ def main():
 
             CardDesigner.design_card(new_card)
     
-    JsonManager.export_cards_to_json(card_list)
+    JsonManager.export_cards_to_json(json_path, card_list)
 
     if(input("Make it printable? ") == 'y'):
         PrintDesigner.DesignPrint()
