@@ -1,4 +1,77 @@
 card_id|title|subtitle|text|value|attack_value|range_value|defense_value|speed_value|layout_url|artwork_url
-0|Hunter|Character|The number of the Actions each turn, is equal to the number of revealed Locations.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\artwork (1).png
-1|Erie|Character|‘Hide’ is a free Action once per turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\artwork (2).png
-2|Henri|Character|‘Search’ is a free Action once per turn.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\artwork (3).png
+29|Guide|Utility|In each turn:CHLN-Play a card.    -Train.    -Buy.    -Rest.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0000__guide.png
+10|Commanders|Unit|Discard a Recruitment card to place a Camp card from your hand under this card sideways. If this Unit dies, all friendly Camps are destroyed except 1 (Player’s choice), all the Player's Camp cards are removed from the game, and no more Offers can be obtained.|4|3|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0017__commander.png
+10|Commanders|Unit|Discard a Recruitment card to place a Camp card from your hand under this card sideways. If this Unit dies, all friendly Camps are destroyed except 1 (Player’s choice), all the Player's Camp cards are removed from the game, and no more Offers can be obtained.|4|3|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0017__commander.png
+10|Commanders|Unit|Discard a Recruitment card to place a Camp card from your hand under this card sideways. If this Unit dies, all friendly Camps are destroyed except 1 (Player’s choice), all the Player's Camp cards are removed from the game, and no more Offers can be obtained.|4|3|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0017__commander.png
+1|Pikemen|Unit||1|2|1|2|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0008__pikeman.png
+1|Pikemen|Unit||1|2|1|2|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0008__pikeman.png
+1|Pikemen|Unit||1|2|1|2|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0008__pikeman.png
+2|Swordsmen|Unit||1|1|1|3|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0009__swordsman.png
+2|Swordsmen|Unit||1|1|1|3|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0009__swordsman.png
+2|Swordsmen|Unit||1|1|1|3|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0009__swordsman.png
+3|Archers|Unit||1|1|2|1|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0007__archer.png
+3|Archers|Unit||1|1|2|1|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0007__archer.png
+3|Archers|Unit||1|1|2|1|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0007__archer.png
+4|Knights|Unit||2|2|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0011__knight.png
+4|Knights|Unit||2|2|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0011__knight.png
+4|Knights|Unit||2|2|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0011__knight.png
+5|Lancers|Unit||2|3|1|2|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0012__lancer.png
+5|Lancers|Unit||2|3|1|2|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0012__lancer.png
+5|Lancers|Unit||2|3|1|2|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0012__lancer.png
+6|Berserkers|Unit||2|3|1|3|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0010__berserker.png
+6|Berserkers|Unit||2|3|1|3|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0010__berserker.png
+6|Berserkers|Unit||2|3|1|3|1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0010__berserker.png
+7|Catapults|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|3|3|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0013__catapult.png
+7|Catapults|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|3|3|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0013__catapult.png
+7|Catapults|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|3|3|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0013__catapult.png
+8|Ballista|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|4|2|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0014__ballista.png
+8|Ballista|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|4|2|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0014__ballista.png
+8|Ballista|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|4|2|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0014__ballista.png
+9|Siege Tower|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|2|4|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0015__siege.png
+9|Siege Tower|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|2|4|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0015__siege.png
+9|Siege Tower|Unit|This Unit can only move by discarding 2 Movement cards while another friendly Unit is adjacent to it.|3|4|2|4|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0015__siege.png
+10|Commanders|Unit|Discard a Recruitment card to place a Camp card from your hand under this card sideways. If this Unit would die, another adjacent Unit may die instead. If this Unit dies, all friendly Camps are destroyed except 1 (Player’s choice), all the Player's Camp cards are removed from the game, and no more Offers can be obtained.|4|3|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0017__commander.png
+10|Commanders|Unit|Discard a Recruitment card to place a Camp card from your hand under this card sideways. If this Unit would die, another adjacent Unit may die instead. If this Unit dies, all friendly Camps are destroyed except 1 (Player’s choice), all the Player's Camp cards are removed from the game, and no more Offers can be obtained.|4|3|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0017__commander.png
+10|Commanders|Unit|Discard a Recruitment card to place a Camp card from your hand under this card sideways. If this Unit would die, another adjacent Unit may die instead. If this Unit dies, all friendly Camps are destroyed except 1 (Player’s choice), all the Player's Camp cards are removed from the game, and no more Offers can be obtained.|4|3|1|3|2|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0017__commander.png
+11|Camps|Unit|Units can be spawned in a Camp tile. If the Unit is destroyed remove this card from the Game. If all the Camps of a Player have been destroyed they Lose the Game.|4|0|0|4|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0016__camp.png
+11|Camps|Unit|Units can be spawned in a Camp tile. If the Unit is destroyed remove this card from the Game. If all the Camps of a Player have been destroyed they Lose the Game.|4|0|0|4|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0016__camp.png
+11|Camps|Unit|Units can be spawned in a Camp tile. If the Unit is destroyed remove this card from the Game. If all the Camps of a Player have been destroyed they Lose the Game.|4|0|0|4|0|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0016__camp.png
+12|Attack!|Battle|Attack with 1 Unit within a distance up to its range, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0002__move.png
+12|Attack!|Battle|Attack with 1 Unit within a distance up to its range, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0002__move.png
+12|Attack!|Battle|Attack with 1 Unit within a distance up to its range, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0002__move.png
+12|Attack!|Battle|Attack with 1 Unit within a distance up to its range, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0002__move.png
+12|Attack!|Battle|Attack with 1 Unit within a distance up to its range, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0002__move.png
+12|Attack!|Battle|Attack with 1 Unit within a distance up to its range, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0002__move.png
+13|Move!|Battle|Move 1 Unit up to its speed, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0005__attack.png
+13|Move!|Battle|Move 1 Unit up to its speed, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0005__attack.png
+13|Move!|Battle|Move 1 Unit up to its speed, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0005__attack.png
+13|Move!|Battle|Move 1 Unit up to its speed, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0005__attack.png
+13|Move!|Battle|Move 1 Unit up to its speed, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0005__attack.png
+13|Move!|Battle|Move 1 Unit up to its speed, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0005__attack.png
+14|Recruit!|Battle|Shuffle 1 Unit from the Offer to your deck, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0003__recruit.png
+14|Recruit!|Battle|Shuffle 1 Unit from the Offer to your deck, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0003__recruit.png
+14|Recruit!|Battle|Shuffle 1 Unit from the Offer to your deck, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0003__recruit.png
+14|Recruit!|Battle|Shuffle 1 Unit from the Offer to your deck, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0003__recruit.png
+14|Recruit!|Battle|Shuffle 1 Unit from the Offer to your deck, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0003__recruit.png
+14|Recruit!|Battle|Shuffle 1 Unit from the Offer to your deck, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0003__recruit.png
+15|Formation Change|Tactics|Switch positions of two Units that both have Speed greater than 0.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+16|Repeating Attempt|Tactics|Roll again.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+17|Formated Movement|Tactics|Move two Units, up to the speed of the slower one.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+18|Formated Attack|Tactics|Two adjacent Units attack together.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+19|Canceling Order|Tactics|Cancel any Tactics card.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+20|Morale Boost|Tactics|Add an extra die to your upcoming roll.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+21|Distant Recruitment|Tactics|Recruit a Unit directly from the Offer.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+22|Distant Order|Tactics|Set Up a Tactic card directly from the Offer.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+23|Maintained Defense|Tactics|Prevent the first Unit from dying this turn.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+24|Forced Movement|Tactics|The next Unit movement has twice its Speed.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+25|Instant Recruitment|Tactics|Recruit a Unit directly from your deck.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+26|Tactical Greed|Tactics|Draw two cards.|3|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0006__tactics.png
+27|Defend!|Battle|Defend a certain Unit receiving an incoming attack, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0004__defence.png
+27|Defend!|Battle|Defend a certain Unit receiving an incoming attack, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0004__defence.png
+27|Defend!|Battle|Defend a certain Unit receiving an incoming attack, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0004__defence.png
+27|Defend!|Battle|Defend a certain Unit receiving an incoming attack, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0004__defence.png
+27|Defend!|Battle|Defend a certain Unit receiving an incoming attack, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0004__defence.png
+27|Defend!|Battle|Defend a certain Unit receiving an incoming attack, by discarding this card.|1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0004__defence.png
+28|Block|Utility|A Block represents a non-walkable space in the battlefield.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0001__block.png
+28|Block|Utility|A Block represents a non-walkable space in the battlefield.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0001__block.png
+28|Block|Utility|A Block represents a non-walkable space in the battlefield.|-1|-1|-1|-1|-1|.\..\Images\Layout\default_layout.png|.\..\Images\Artwork\_0001__block.png

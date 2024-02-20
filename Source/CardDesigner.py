@@ -40,7 +40,7 @@ def resize_image(image, new_width, new_height):
 
 def import_image(image_path):
     try:
-        img = Image.open(image_path)
+        img = Image.open(image_path).convert("RGBA")
         return img
     except FileNotFoundError:
         print("Image file not found: " + image_path)
@@ -119,25 +119,33 @@ def design_card(card):
     #xy, text, fill=None, font=None, anchor=None, spacing=0, align=”left”)
     
     #text
-    texted_img = SetText( layout_ready_image, (size[0]/25, size[1]/1.35), MakeCardTextPrintFriendly(card.get_text(), 50), text_fill='white', text_font=LoadFont(font_url, 30))
+    texted_img = SetText( layout_ready_image, 
+                         (size[0]/25, size[1]/1.15), MakeCardTextPrintFriendly(card.get_text(), 60), text_fill='white', text_font=LoadFont(font_url, 25))
     #title
     if len(card.get_title()) > 0:
-        texted_img = SetText( texted_img, (size[0]/25, size[1]/75), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 50))
+        #texted_img = SetText( texted_img, (size[0]/25, size[1]/75), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 50))
+        texted_img = SetText( texted_img, (size[0]/25, size[1]/1.49), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 45), text_align='left')
     #subtitle
     if len(card.get_subtitle()) > 0:
-        texted_img = SetText( texted_img, (size[0]/25, size[1]/13), card.get_subtitle(), text_fill='white', text_font=LoadFont(font_url, 30))
+        #texted_img = SetText( texted_img, (size[0]/25, size[1]/13), card.get_subtitle(), text_fill='white', text_font=LoadFont(font_url, 30))
+        texted_img = SetText( texted_img, (size[0]/25, size[1]/1.39), card.get_subtitle(), text_fill='white', text_font=LoadFont(font_url, 25), text_align='left')
     #value
     if card.get_value() >= 0:
-        texted_img = SetText( texted_img, (size[0]/1.25, 0), card.get_value(), text_fill='white', text_font=LoadFont(font_url, 100))
+        #texted_img = SetText( texted_img, (size[0]/1.25, 0), str(card.get_value()), text_fill='white', text_font=LoadFont(font_url, 100))
+        texted_img = SetText( texted_img, (size[0]/1.205, size[1]/1.61), str(card.get_value()), text_fill='white', text_font=LoadFont(font_url, 80), text_align='left')
     #stats
     if card.get_attack_value() >= 0:
-        texted_img = SetText( texted_img, (size[0]/2 - 300, size[1]/1.15), 'Atk: ' + str(card.get_attack_value()), text_fill='white', text_font=LoadFont(font_url, 35))
+        texted_img = SetText( texted_img, 
+                             (size[0]/2 - 300, size[1]/1.275), 'Atk: ' + str(card.get_attack_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
     if card.get_range_value() >= 0:
-        texted_img = SetText( texted_img, (size[0]/2 - 150, size[1]/1.15), 'Rng: ' + str(card.get_range_value()), text_fill='white', text_font=LoadFont(font_url, 35))
+        texted_img = SetText( texted_img, 
+                             (size[0]/2 - 142.5, size[1]/1.275), 'Rng: ' + str(card.get_range_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
     if card.get_defense_value() >= 0:
-        texted_img = SetText( texted_img, (size[0]/2 + 50, size[1]/1.15), 'Def: ' + str(card.get_defense_value()), text_fill='white', text_font=LoadFont(font_url, 35))
+        texted_img = SetText( texted_img, 
+                             (size[0]/2 + 42.5, size[1]/1.275), 'Def: ' + str(card.get_defense_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
     if card.get_speed_value() >= 0:
-        texted_img = SetText( texted_img, (size[0]/2 + 200, size[1]/1.15), 'Spe: ' + str(card.get_speed_value()), text_fill='white', text_font=LoadFont(font_url, 35))
+        texted_img = SetText( texted_img, 
+                             (size[0]/2 + 200, size[1]/1.275), 'Spe: ' + str(card.get_speed_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
     
     #old
     '''
@@ -158,7 +166,7 @@ def design_card(card):
     '''
     #cardId
     #texted_img = SetText( texted_img, (size[0]/25, size[1]/1.075), '\nID: ' + str(card.get_card_id()), font_url, 20, (255, 255, 255))
-    texted_img = SetText( texted_img, (size[0]/25, size[1]/1.075), '\nID: ' + str(card.get_card_id()), text_fill='white', text_font=LoadFont(font_url, 20))
+    #texted_img = SetText( texted_img, (size[0]/25, size[1]/1.05), '\nID: ' + str(card.get_card_id()), text_fill='white', text_font=LoadFont(font_url, 15))
     final_image = texted_img
     #print(str(card.get_card_id()))
     if len(card.get_subtitle()) > 0:

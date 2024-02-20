@@ -19,7 +19,7 @@ def DesignPrint():
 
     # Set the DPI to 300
     dpi = 300
-    scale_factor = dpi / 72.0  # Points per inch
+    scale_factor = dpi / 75.6  # Points per inch (72.0)
 
     # Calculate the width and height in pixels based on DPI
     width_px = int(A4[0] * scale_factor)
