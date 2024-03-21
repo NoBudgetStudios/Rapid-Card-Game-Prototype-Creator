@@ -1,0 +1,55 @@
+card_id|title|subtitle|main_text|center_text|corner_text|value|attack_value|range_value|defense_value|speed_value|layout_url|artwork_url
+5|TUTORIAL||||Tutorial|Play:    Play a card (up to 1 per Type)CHLNShift:    Discard 1 card and move 1 played bit to any empty adjacent (not diagonally) grid space.CHLNPass:    Draw 1 card from special deck.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Bit (1).png
+0|BIT||||0||0|-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Bit_Template.png|.\..\Images\Artwork\Bit (1).png
+1|BIT||||1||1|-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Bit_Template.png|.\..\Images\Artwork\Bit (1).png
+3|NIBBLE||||0|0 0 0 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||1|0 0 0 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||2|0 0 1 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||3|0 0 1 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||4|0 1 0 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||5|0 1 0 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||6|0 1 1 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||7|0 1 1 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||8|1 0 0 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||9|1 0 0 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||10|1 0 1 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||11|1 0 1 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||12|1 1 0 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||13|1 1 0 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||14|1 1 1 0||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+3|NIBBLE||||15|1 1 1 1||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Nibble (1).png
+2|MALWARE||||Brute Force|Guess a Bit (0 or 1), reveal the top card of the main deck, if you guessed it correctly, play it as an additional Bit, otherwise shuffle it in the deck.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Worm|Discard 1 random card from a player's hand.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Bot|Guess a Bit (0 or 1), reveal 1 card from another player's hand, if you guessed it correctly, play it as an additional Bit, otherwise discard it.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||DDOS|Look at the cards in another player's hand and shuffle 1 of them to its deck.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Spyware|Look at the cards in another player's hand.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Phishing|Take a random card from an opponent's hand.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Zero Day Exploit|Look at the cards in another player's hand and (as an additional free action) play 1 of them immediately.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Adware|Select a player, they lose their next turn.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Keylogger|Look at the cards in another player's hand and take 1 of them to your hand.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Ransomware|Select 2 players to swap the cards in their hands.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Trojan|Look at the cards in another player's hand and discard one of their cards.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Rootkit|Play with another player's cards this turn.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Crawler|Search any deck and take 1 card to your hand, then shuffle the deck.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Firewall|Other player's cards do not affect you until the end of your next turn.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Antivirus|When a Malware card is played, cancel it. Play this card any time (even if it is not your turn).||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+2|MALWARE||||Virus|Each other player discards 1 card of their selection.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Malware (1).png
+3|GOAL||||Corners of 0s|Gain 1 Bit Point for filling the 4 corners with 0s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Cross of 0s|Gain 1 Bit Point for formatting a 5-bit Cross shape with 0s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Small Square of 0s|Gain 1 Bit Point for formatting a 4-bit Square shape with 0s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Big Square of 0s|Gain 1 Bit Point for formatting a 9-bit Square shape with 0s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Alternations starting with 0|Gain 1 Bit Point for formatting a 4-bit Sequence of 0s and 1s, starting with 0.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Diagonal of 0s|Gain 1 Bit Point for formatting a 4-bit Sequence of 0s on the ascending diagonal.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Inverted Diagonal of 0s|Gain 1 Bit Point for formatting a 4-bit Sequence of 0s on the decented diagonal.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Big Hand|Gain 1 Bit Point for having 8 card in your hand.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Small Hand|Gain 1 Bit Point for having 0 card in your hand.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Corners of 1s|Gain 1 Bit Point for filling the 4 corners with 1s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Cross of 1s|Gain 1 Bit Point for formatting a 5-bit Cross shape with 1s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Small Square of 1s|Gain 1 Bit Point for formatting a 4-bit Square shape with 1s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Big Square of 1s|Gain 1 Bit Point for formatting a 9-bit Square shape with 1s.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Alternations starting with 1|Gain 1 Bit Point for formatting a 4-bit Sequence of 0s and 1s, starting with 1.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Diagonal of 1s|Gain 1 Bit Point for formatting a 4-bit Sequence of 1s on the ascending diagonal.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+3|GOAL||||Inverted Diagonal of 1s|Gain 1 Bit Point for formatting a 4-bit Sequence of 1s on the decented diagonal.||-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Special_Template.png|.\..\Images\Artwork\Goal (1).png
+4|GATE||||And|CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(0)CHLNIn(1,0):Out(0)CHLNIn(1,1):Out(1)|And|-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Gate_Template.png|.\..\Images\Artwork\Gate (1).png
+4|GATE||||Or|CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(1)CHLNIn(1,0):Out(1)CHLNIn(1,1):Out(1)|Or|-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Gate_Template.png|.\..\Images\Artwork\Gate (1).png
+4|GATE||||Not|CHLNIn(0):Out(1)CHLNIn(1):Out(0)|Not|-1|-1|-1|-1|-1|.\..\Images\Layout\Bitwise_Gate_Template.png|.\..\Images\Artwork\Gate (1).png

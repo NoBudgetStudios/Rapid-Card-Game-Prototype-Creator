@@ -14,10 +14,61 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
     },
     {
         "card_id": 1,
+        "card_type": "TUTORIAL",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Tutorial",
+        "small_center_text": "Play:    Play a card (up to 1 per Type)CHLNShift:    Discard 1 card and move 1 played bit to any empty adjacent (not diagonally) grid space.CHLNPass:    Draw 1 card from special deck.",
+        "corner_text": "",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 2,
+        "card_type": "TUTORIAL",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Tutorial",
+        "small_center_text": "Play:    Play a card (up to 1 per Type)CHLNShift:    Discard 1 card and move 1 played bit to any empty adjacent (not diagonally) grid space.CHLNPass:    Draw 1 card from special deck.",
+        "corner_text": "",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 3,
+        "card_type": "TUTORIAL",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Tutorial",
+        "small_center_text": "Play:    Play a card (up to 1 per Type)CHLNShift:    Discard 1 card and move 1 played bit to any empty adjacent (not diagonally) grid space.CHLNPass:    Draw 1 card from special deck.",
+        "corner_text": "",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 4,
         "card_type": "BIT",
         "title": "",
         "subtitle": "",
@@ -31,10 +82,265 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
     },
     {
-        "card_id": 2,
+        "card_id": 5,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 6,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 7,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 8,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 9,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 10,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 11,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 12,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 13,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 14,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 15,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 16,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 17,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 18,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 19,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "0",
+        "small_center_text": "",
+        "corner_text": "0",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 20,
         "card_type": "BIT",
         "title": "",
         "subtitle": "",
@@ -48,10 +354,265 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
     },
     {
-        "card_id": 3,
+        "card_id": 21,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 22,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 23,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 24,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 25,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 26,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 27,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 28,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 29,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 30,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 31,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 32,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 33,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 34,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 35,
+        "card_type": "BIT",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "1",
+        "small_center_text": "",
+        "corner_text": "1",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Bit_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Bit (1).png"
+    },
+    {
+        "card_id": 36,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -65,10 +626,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 4,
+        "card_id": 37,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -82,10 +643,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 5,
+        "card_id": 38,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -99,10 +660,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 6,
+        "card_id": 39,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -116,10 +677,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 7,
+        "card_id": 40,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -133,10 +694,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 8,
+        "card_id": 41,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -150,10 +711,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 9,
+        "card_id": 42,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -167,10 +728,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 10,
+        "card_id": 43,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -184,10 +745,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 11,
+        "card_id": 44,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -201,10 +762,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 12,
+        "card_id": 45,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -218,10 +779,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 13,
+        "card_id": 46,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -235,10 +796,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 14,
+        "card_id": 47,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -252,10 +813,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 15,
+        "card_id": 48,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -269,10 +830,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 16,
+        "card_id": 49,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -286,10 +847,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 17,
+        "card_id": 50,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -303,10 +864,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 18,
+        "card_id": 51,
         "card_type": "NIBBLE",
         "title": "",
         "subtitle": "",
@@ -320,10 +881,78 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Nibble (1).png"
     },
     {
-        "card_id": 19,
+        "card_id": 52,
+        "card_type": "HARDWARE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Short Circuit",
+        "small_center_text": "Discard a played Bit.",
+        "corner_text": "",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
+    },
+    {
+        "card_id": 53,
+        "card_type": "HARDWARE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Glitch",
+        "small_center_text": "Switch positions between 2 played Bit.",
+        "corner_text": "",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
+    },
+    {
+        "card_id": 54,
+        "card_type": "HARDWARE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Overclock",
+        "small_center_text": "Play an additional Bit this turn.",
+        "corner_text": "",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
+    },
+    {
+        "card_id": 55,
+        "card_type": "HARDWARE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Memory Leak",
+        "small_center_text": "Take a played Bit to your hand.",
+        "corner_text": "",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
+    },
+    {
+        "card_id": 56,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -337,10 +966,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 20,
+        "card_id": 57,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -354,10 +983,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 21,
+        "card_id": 58,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -371,10 +1000,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 22,
+        "card_id": 59,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -388,10 +1017,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 23,
+        "card_id": 60,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -405,10 +1034,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 24,
+        "card_id": 61,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -422,10 +1051,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 25,
+        "card_id": 62,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -439,10 +1068,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 26,
+        "card_id": 63,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -456,10 +1085,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 27,
+        "card_id": 64,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -473,10 +1102,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 28,
+        "card_id": 65,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -490,10 +1119,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 29,
+        "card_id": 66,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -507,10 +1136,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 30,
+        "card_id": 67,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -524,10 +1153,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 31,
+        "card_id": 68,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -541,10 +1170,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 32,
+        "card_id": 69,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -558,10 +1187,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 33,
+        "card_id": 70,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -575,10 +1204,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 34,
+        "card_id": 71,
         "card_type": "MALWARE",
         "title": "",
         "subtitle": "",
@@ -592,10 +1221,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Malware (1).png"
     },
     {
-        "card_id": 35,
+        "card_id": 72,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -609,10 +1238,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 36,
+        "card_id": 73,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -626,10 +1255,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 37,
+        "card_id": 74,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -643,10 +1272,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 38,
+        "card_id": 75,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -660,10 +1289,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 39,
+        "card_id": 76,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -677,10 +1306,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 40,
+        "card_id": 77,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -694,10 +1323,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 41,
+        "card_id": 78,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -711,10 +1340,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 42,
+        "card_id": 79,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -728,10 +1357,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 43,
+        "card_id": 80,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -745,10 +1374,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 44,
+        "card_id": 81,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -762,10 +1391,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 45,
+        "card_id": 82,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -779,10 +1408,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 46,
+        "card_id": 83,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -796,10 +1425,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 47,
+        "card_id": 84,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -813,10 +1442,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 48,
+        "card_id": 85,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -830,10 +1459,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 49,
+        "card_id": 86,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -847,10 +1476,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 50,
+        "card_id": 87,
         "card_type": "GOAL",
         "title": "",
         "subtitle": "",
@@ -864,10 +1493,10 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Special_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Goal (1).png"
     },
     {
-        "card_id": 51,
+        "card_id": 88,
         "card_type": "GATE",
         "title": "",
         "subtitle": "",
@@ -881,10 +1510,61 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
     },
     {
-        "card_id": 52,
+        "card_id": 89,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "And",
+        "small_center_text": "CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(0)CHLNIn(1,0):Out(0)CHLNIn(1,1):Out(1)",
+        "corner_text": "And",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 90,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "And",
+        "small_center_text": "CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(0)CHLNIn(1,0):Out(0)CHLNIn(1,1):Out(1)",
+        "corner_text": "And",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 91,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "And",
+        "small_center_text": "CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(0)CHLNIn(1,0):Out(0)CHLNIn(1,1):Out(1)",
+        "corner_text": "And",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 92,
         "card_type": "GATE",
         "title": "",
         "subtitle": "",
@@ -898,23 +1578,125 @@
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
     },
     {
-        "card_id": 53,
+        "card_id": 93,
         "card_type": "GATE",
         "title": "",
         "subtitle": "",
         "main_text": "",
-        "big_center_text": "Not",
-        "small_center_text": "CHLNIn(0):Out(1)CHLNIn(1):Out(0)",
-        "corner_text": "\u00ac",
+        "big_center_text": "Or",
+        "small_center_text": "CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(1)CHLNIn(1,0):Out(1)CHLNIn(1,1):Out(1)",
+        "corner_text": "Or",
         "value": -1,
         "attack_value": -1,
         "range_value": -1,
         "defense_value": -1,
         "speed_value": -1,
         "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
-        "artwork_url": ".\\..\\Images\\Artwork\\bitwise.png"
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 94,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Or",
+        "small_center_text": "CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(1)CHLNIn(1,0):Out(1)CHLNIn(1,1):Out(1)",
+        "corner_text": "Or",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 95,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Or",
+        "small_center_text": "CHLNIn(0,0):Out(0)CHLNIn(0,1):Out(1)CHLNIn(1,0):Out(1)CHLNIn(1,1):Out(1)",
+        "corner_text": "Or",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 96,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Not",
+        "small_center_text": "CHLNIn(0):Out(1)CHLNIn(1):Out(0)",
+        "corner_text": "Not",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 97,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Not",
+        "small_center_text": "CHLNIn(0):Out(1)CHLNIn(1):Out(0)",
+        "corner_text": "Not",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 98,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Not",
+        "small_center_text": "CHLNIn(0):Out(1)CHLNIn(1):Out(0)",
+        "corner_text": "Not",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
+    },
+    {
+        "card_id": 99,
+        "card_type": "GATE",
+        "title": "",
+        "subtitle": "",
+        "main_text": "",
+        "big_center_text": "Not",
+        "small_center_text": "CHLNIn(0):Out(1)CHLNIn(1):Out(0)",
+        "corner_text": "Not",
+        "value": -1,
+        "attack_value": -1,
+        "range_value": -1,
+        "defense_value": -1,
+        "speed_value": -1,
+        "layout_url": ".\\..\\Images\\Layout\\Bitwise_Gate_Template.png",
+        "artwork_url": ".\\..\\Images\\Artwork\\Gate (1).png"
     }
 ]

@@ -132,7 +132,7 @@ def design_card(card):
     elif(card.get_card_type() == "BIT"):
         texted_img = SetText( layout_ready_image, 
                             (size[0]/2, size[1]/1.89), MakeCardTextPrintFriendly(card.get_big_center_text(), 20), text_fill='white', text_font=LoadFont(font_url, 300), text_align='center', text_anchor = 'mm')  
-    elif(card.get_card_type() == "MALWARE" or card.get_card_type() == "GOAL" or card.get_card_type() == "GOAL"):
+    elif(card.get_card_type() == "MALWARE" or card.get_card_type() == "HARDWARE" or card.get_card_type() == "GOAL"):
         texted_img = SetText( layout_ready_image, 
                             (size[0]/2, size[1]/2.90), MakeCardTextPrintFriendly(card.get_big_center_text(), 20), text_fill='white', text_font=LoadFont(font_url, 50), text_align='center', text_anchor = 'mm')  
     else:
@@ -150,7 +150,7 @@ def design_card(card):
                          (size[0]/2, size[1]/1.75), MakeCardTextPrintFriendly(card.get_small_center_text(), 40), text_fill='white', text_font=LoadFont(font_url_alt, 35), text_align='left', text_anchor = 'mm')
     else:
         texted_img = SetText( layout_ready_image, 
-                         (size[0]/2, size[1]/1.75), MakeCardTextPrintFriendly(card.get_small_center_text(), 30), text_fill='white', text_font=LoadFont(font_url_alt, 40), text_align='center', text_anchor = 'mm')
+                         (size[0]/2, size[1]/1.75), MakeCardTextPrintFriendly(card.get_small_center_text(), 25), text_fill='white', text_font=LoadFont(font_url_alt, 50), text_align='center', text_anchor = 'mm')
     #title
     if len(card.get_title()) > 0:
         #texted_img = SetText( texted_img, (size[0]/25, size[1]/75), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 50))
