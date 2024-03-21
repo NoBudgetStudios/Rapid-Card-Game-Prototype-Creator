@@ -3,9 +3,13 @@ import json
 def card_to_dict(card):
     return {
         "card_id": card.get_card_id(),
+        "card_type": card.get_card_type(),
         "title": card.get_title(),
         "subtitle": card.get_subtitle(),
-        "text": card.get_text(),
+        "main_text": card.get_main_text(),
+        "big_center_text": card.get_big_center_text(),
+        "small_center_text": card.get_small_center_text(),
+        "corner_text": card.get_corner_text(),
         "value": card.get_value(),
         "attack_value": card.get_attack_value(),
         "range_value": card.get_range_value(),

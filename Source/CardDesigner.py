@@ -5,7 +5,8 @@ import datetime
 
 layout_url = '.\\..\\Images\\Layout\\'
 artwork_url = '.\\..\\Images\\Artwork\\'
-font_url = '.\\..\\Fonts\\Manrope.ttf'
+font_url = '.\\..\\Fonts\\quantrnd.ttf'#Manrope.ttf'
+font_url_alt = '.\\..\\Fonts\\Manrope.ttf'
 output_url = '.\\..\\Images\\Output\\'
 
 random_images = False
@@ -55,7 +56,7 @@ def export_image(image_name, image):
 def LoadFont(fontUrl, size):
     return ImageFont.truetype(fontUrl, size)
 
-def SetText( image, xy, text, text_fill=None, text_font=None, text_anchor=None, text_spacing=0, text_align='left'):#img, position, text, font_url, font_size, font_color):
+def SetText( image, xy, text, text_fill=None, text_font=None, text_anchor='mm', text_spacing=0, text_align = "center"):#img, position, text, font_url, font_size, font_color):
     draw = ImageDraw.Draw(image)
     draw.multiline_text(xy, text, fill=text_fill, font=text_font, anchor=text_anchor, spacing=text_spacing, align=text_align)
     return image
@@ -118,34 +119,95 @@ def design_card(card):
     size = layout_ready_image.size
     #xy, text, fill=None, font=None, anchor=None, spacing=0, align=”left”)
     
-    #text
+    #main text
     texted_img = SetText( layout_ready_image, 
-                         (size[0]/25, size[1]/1.15), MakeCardTextPrintFriendly(card.get_text(), 60), text_fill='white', text_font=LoadFont(font_url, 25))
+                         (size[0]/25, size[1]/1.15), MakeCardTextPrintFriendly(card.get_main_text(), 50), text_fill='white', text_font=LoadFont(font_url, 25), text_align='center', text_anchor = 'mm')  
+    #big center text
+    if(card.get_card_type() == "NIBBLE"):
+        texted_img = SetText( layout_ready_image, 
+                            (size[0]/2, size[1]/2.1), MakeCardTextPrintFriendly(card.get_big_center_text(), 20), text_fill='white', text_font=LoadFont(font_url, 300), text_align='center', text_anchor = 'mm') 
+    elif(card.get_card_type() == "TUTORIAL"):
+        texted_img = SetText( layout_ready_image, 
+                            (size[0]/2, size[1]/3), MakeCardTextPrintFriendly(card.get_big_center_text(), 20), text_fill='white', text_font=LoadFont(font_url, 75), text_align='center', text_anchor = 'mm') 
+    elif(card.get_card_type() == "BIT"):
+        texted_img = SetText( layout_ready_image, 
+                            (size[0]/2, size[1]/1.89), MakeCardTextPrintFriendly(card.get_big_center_text(), 20), text_fill='white', text_font=LoadFont(font_url, 300), text_align='center', text_anchor = 'mm')  
+    elif(card.get_card_type() == "MALWARE" or card.get_card_type() == "GOAL" or card.get_card_type() == "GOAL"):
+        texted_img = SetText( layout_ready_image, 
+                            (size[0]/2, size[1]/2.90), MakeCardTextPrintFriendly(card.get_big_center_text(), 20), text_fill='white', text_font=LoadFont(font_url, 50), text_align='center', text_anchor = 'mm')  
+    else:
+        texted_img = SetText( layout_ready_image, 
+                            (size[0]/2, size[1]/3), MakeCardTextPrintFriendly(card.get_big_center_text(), 20), text_fill='white', text_font=LoadFont(font_url, 75), text_align='center', text_anchor = 'mm')  
+    #small center text
+    if(card.get_card_type() == "NIBBLE"):
+        texted_img = SetText( layout_ready_image, 
+                         (size[0]/2, size[1]/1.5), MakeCardTextPrintFriendly(card.get_small_center_text(), 30), text_fill='white', text_font=LoadFont(font_url, 100), text_align='center', text_anchor = 'mm')
+    elif(card.get_card_type() == "GATE"):
+        texted_img = SetText( layout_ready_image, 
+                         (size[0]/2, size[1]/2), MakeCardTextPrintFriendly(card.get_small_center_text(), 30), text_fill='white', text_font=LoadFont(font_url_alt, 40), text_align='center', text_anchor = 'mm')
+    elif(card.get_card_type() == "TUTORIAL"):
+        texted_img = SetText( layout_ready_image, 
+                         (size[0]/2, size[1]/1.75), MakeCardTextPrintFriendly(card.get_small_center_text(), 40), text_fill='white', text_font=LoadFont(font_url_alt, 35), text_align='left', text_anchor = 'mm')
+    else:
+        texted_img = SetText( layout_ready_image, 
+                         (size[0]/2, size[1]/1.75), MakeCardTextPrintFriendly(card.get_small_center_text(), 30), text_fill='white', text_font=LoadFont(font_url_alt, 40), text_align='center', text_anchor = 'mm')
     #title
     if len(card.get_title()) > 0:
         #texted_img = SetText( texted_img, (size[0]/25, size[1]/75), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 50))
-        texted_img = SetText( texted_img, (size[0]/25, size[1]/1.49), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 45), text_align='left')
+        texted_img = SetText( texted_img, (size[0]/25, size[1]/1.49), card.get_title(), text_fill='white', text_font=LoadFont(font_url, 45), text_align='left', text_anchor = 'lm')
     #subtitle
     if len(card.get_subtitle()) > 0:
         #texted_img = SetText( texted_img, (size[0]/25, size[1]/13), card.get_subtitle(), text_fill='white', text_font=LoadFont(font_url, 30))
-        texted_img = SetText( texted_img, (size[0]/25, size[1]/1.39), card.get_subtitle(), text_fill='white', text_font=LoadFont(font_url, 25), text_align='left')
+        texted_img = SetText( texted_img, (size[0]/25, size[1]/1.39), card.get_subtitle(), text_fill='white', text_font=LoadFont(font_url, 25), text_align='left', text_anchor = 'lm')
     #value
     if card.get_value() >= 0:
         #texted_img = SetText( texted_img, (size[0]/1.25, 0), str(card.get_value()), text_fill='white', text_font=LoadFont(font_url, 100))
-        texted_img = SetText( texted_img, (size[0]/1.205, size[1]/1.61), str(card.get_value()), text_fill='white', text_font=LoadFont(font_url, 80), text_align='left')
+        texted_img = SetText( texted_img, (size[0]/1.205, size[1]/1.61), str(card.get_value()), text_fill='white', text_font=LoadFont(font_url, 80), text_align='left', text_anchor = 'lm')
     #stats
     if card.get_attack_value() >= 0:
         texted_img = SetText( texted_img, 
-                             (size[0]/2 - 300, size[1]/1.275), 'Atk: ' + str(card.get_attack_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
+                             (size[0]/2 - 300, size[1]/1.275), 'Atk: ' + str(card.get_attack_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left', text_anchor = 'mm')
     if card.get_range_value() >= 0:
         texted_img = SetText( texted_img, 
-                             (size[0]/2 - 142.5, size[1]/1.275), 'Rng: ' + str(card.get_range_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
+                             (size[0]/2 - 142.5, size[1]/1.275), 'Rng: ' + str(card.get_range_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left', text_anchor = 'mm')
     if card.get_defense_value() >= 0:
         texted_img = SetText( texted_img, 
-                             (size[0]/2 + 42.5, size[1]/1.275), 'Def: ' + str(card.get_defense_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
+                             (size[0]/2 + 42.5, size[1]/1.275), 'Def: ' + str(card.get_defense_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left', text_anchor = 'mm')
     if card.get_speed_value() >= 0:
         texted_img = SetText( texted_img, 
-                             (size[0]/2 + 200, size[1]/1.275), 'Spe: ' + str(card.get_speed_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left')
+                             (size[0]/2 + 200, size[1]/1.275), 'Spe: ' + str(card.get_speed_value()), text_fill='white', text_font=LoadFont(font_url, 40), text_align='left', text_anchor = 'mm')
+    #mid text
+
+    corner_text_x = 100
+    corner_text_y = 100
+    corner_offset_y = 25
+    corner_size = 75
+    
+    #corners
+    if(card.get_card_type() == "GATE"):
+        texted_img = SetText(
+            texted_img, (corner_text_x, corner_text_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, 50), text_align='center', text_anchor = 'mm')   
+                
+        texted_img = SetText(
+            texted_img, (corner_text_x, size[1]-corner_text_y + corner_offset_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, 50), text_align='center', text_anchor = 'mm')   
+                
+        texted_img = SetText(
+            texted_img, (size[0]-corner_text_x, corner_text_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, 50), text_align='center', text_anchor = 'mm')   
+                
+        texted_img = SetText(
+            texted_img, (size[0]-corner_text_x, size[1]-corner_text_y + corner_offset_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, 50), text_align='center', text_anchor = 'mm')   
+    else:
+        texted_img = SetText(
+            texted_img, (corner_text_x, corner_text_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, corner_size), text_align='center', text_anchor = 'mm')   
+                
+        texted_img = SetText(
+            texted_img, (corner_text_x, size[1]-corner_text_y + corner_offset_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, corner_size), text_align='center', text_anchor = 'mm')   
+                
+        texted_img = SetText(
+            texted_img, (size[0]-corner_text_x, corner_text_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, corner_size), text_align='center', text_anchor = 'mm')   
+                
+        texted_img = SetText(
+            texted_img, (size[0]-corner_text_x, size[1]-corner_text_y + corner_offset_y), str(card.get_corner_text()), text_fill='white', text_font=LoadFont(font_url, corner_size), text_align='center', text_anchor = 'mm')   
     
     #old
     '''

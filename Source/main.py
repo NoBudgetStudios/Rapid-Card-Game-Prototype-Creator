@@ -34,7 +34,7 @@ def main():
             CardDesigner.design_card(new_card)
     
     JsonManager.export_cards_to_json(json_path, card_list)
-
+    return
     if(input("Make it printable? ") == 'y'):
         PrintDesigner.DesignPrint()
 
@@ -96,7 +96,7 @@ def generate_card(card = None, random_title = False, random_subtitle = False, ra
         layout_url = card.get_layout_url()
         artwork_url = card.get_artwork_url()
 
-    newCard = Card.Card(title, subtitle, text, value, attack_value, range_value, defense_value, speed_value, layout_url, artwork_url)
+    newCard = Card.Card(card_type, title, subtitle, main_text, big_center_text, small_center_text, corner_text, value, attack_value, range_value, defense_value, speed_value, layout_url, artwork_url)
     #print(newCard)
     # Creating and returning a Card object with the generated values
     return newCard

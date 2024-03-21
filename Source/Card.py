@@ -1,11 +1,15 @@
 class Card:
     _id_counter = 0  # Class-level variable to track card IDs
 
-    def __init__(self, title, subtitle, text, value, attack_value, range_value, defense_value, speed_value, layout_url, artwork_url):
+    def __init__(self, card_type, title, subtitle, main_text, big_center_text, small_center_text, corner_text, value, attack_value, range_value, defense_value, speed_value, layout_url, artwork_url):
         self._card_id = Card._id_counter
+        self._card_type = card_type
         self._title = title
         self._subtitle = subtitle
-        self._text = text
+        self._main_text = main_text
+        self._big_center_text = big_center_text
+        self._small_center_text = small_center_text
+        self._corner_text = corner_text
         self._value = int(value)
         self._attack_value = int(attack_value)
         self._range_value = int(range_value)
@@ -18,6 +22,9 @@ class Card:
     # Getters
     def get_card_id(self):
         return self._card_id
+    
+    def get_card_type(self):
+        return self._card_type
 
     def get_title(self):
         return self._title
@@ -25,8 +32,17 @@ class Card:
     def get_subtitle(self):
         return self._subtitle
 
-    def get_text(self):
-        return self._text
+    def get_main_text(self):
+        return self._main_text
+    
+    def get_big_center_text(self):
+        return self._big_center_text
+    
+    def get_small_center_text(self):
+        return self._small_center_text
+
+    def get_corner_text(self):
+        return self._corner_text
 
     def get_value(self):
         return self._value
@@ -52,6 +68,9 @@ class Card:
     # Setters
     def set_card_id(self, card_id):
         self._card_id = card_id
+        
+    def set_card_type(self, card_type):
+        self._card_type = card_type
 
     def set_title(self, title):
         self._title = title
@@ -59,9 +78,18 @@ class Card:
     def set_subtitle(self, subtitle):
         self._subtitle = subtitle
 
-    def set_text(self, text):
-        self._text = text
+    def set_main_text(self, main_text):
+        self._main_text = main_text
+    
+    def set_big_center_text(self, big_center_text):
+        self._big_center_text = big_center_text
+    
+    def set_small_center_text(self, small_center_text):
+        self._small_center_text = small_center_text
 
+    def set_corner_text(self, corner_text):
+        self._corner_text = corner_text
+    
     def set_value(self, value):
         self._value = value
 
@@ -84,13 +112,18 @@ class Card:
         self._artwork_url = artwork_url
 
     def __str__(self):
-        return f"Card ID: {self._card_id}\nTitle: {self._title}\nSubtitle: {self._subtitle}\nText: {self._text}\nValue: {self._value}\nAttack Value: {self._attack_value}\nRange Value: {self._range_value}\nDefense Value: {self._defense_value}\nSpeed Value: {self._speed_value}\nLayout URL: {self._layout_url}\nArtwork URL: {self._artwork_url}"
+        return f"Card ID: {self._card_id}\nCard Type: {self._card_type}\nTitle: {self._title}\nSubtitle: {self._subtitle}\nmain_text: {self._main_text}\nbig_center_text: {self.get_big_center_text}\nsmall_center_text: {self._small_center_text}\ncorner_text: {self._corner_text}\nValue: {self._value}\nAttack Value: {self._attack_value}\nRange Value: {self._range_value}\nDefense Value: {self._defense_value}\nSpeed Value: {self._speed_value}\nLayout URL: {self._layout_url}\nArtwork URL: {self._artwork_url}"
 
-    def print_card(self):
+def print_card(self):
+        # Updated to include center_text and corner_text in the printed output
         print(f"Card ID: {self.get_card_id()}")
+        print(f"Title: {self.get_card_type()}")
         print(f"Title: {self.get_title()}")
         print(f"Subtitle: {self.get_subtitle()}")
-        print(f"Text: {self.get_text()}")
+        print(f"Main Text: {self.get_main_text()}")
+        print(f"Big Center Text: {self.get_big_center_text()}")
+        print(f"Small Center Text: {self.get_small_center_text()}")
+        print(f"Corner Text: {self.get_corner_text()}")
         print(f"Value: {self.get_value()}")
         print(f"Attack Value: {self.get_attack_value()}")
         print(f"Range Value: {self.get_range_value()}")

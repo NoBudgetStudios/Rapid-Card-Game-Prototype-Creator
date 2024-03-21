@@ -9,9 +9,13 @@ def create_db_if_not_exists(path):
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS cards (
             card_id INTEGER PRIMARY KEY,
+            card_type TEXT,
             title TEXT,
             subtitle TEXT,
-            text TEXT,
+            main_text TEXT,
+            big_center_text TEXT,
+            small_center_text TEXT,
+            corner_text TEXT,
             value INTEGER,
             attack_value INTEGER,
             range_value TEXT,
@@ -31,9 +35,9 @@ def insert_card(path, card):
     cursor = conn.cursor()
 
     cursor.execute('''
-        INSERT INTO cards (title, subtitle, text, value, attack_value, range_value, defense_value, speed_value, layout_url, artwork_url)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    ''', (card.get_title(), card.get_subtitle(), card.get_text(), card.get_value(), card.get_attack_value(), card.get_range_value(), card.get_defense_value(), card.get_speed_value(), card.get_layout_url(), card.get_artwork_url()))
+        INSERT INTO cards (card_type, title, subtitle, main_text, big_center_text, small_center_text, corner_text, value, attack_value, range_value, defense_value, speed_value, layout_url, artwork_url)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (card.get_card_type(), card.get_title(), card.get_subtitle(), card.get_main_text(), card.get_big_center_text(), card.get_small_center_text(), card.get_corner_text(), card.get_value(), card.get_attack_value(), card.get_range_value(), card.get_defense_value(), card.get_speed_value(), card.get_layout_url(), card.get_artwork_url()))
 
     conn.commit()
     conn.close()
@@ -59,9 +63,9 @@ def update_card(path, card):
     cursor = conn.cursor()
 
     cursor.execute('''
-        UPDATE cards SET title=?, subtitle=?, text=?, value=?, attack_value=?, range_value=?, defense_value=?, speed_value=?, layout_url=?, artwork_url=?
+        UPDATE cards SET card_type=?, title=?, subtitle=?, main_text=?, big_center_text=?, small_center_text=?, corner_text=?, value=?, attack_value=?, range_value=?, defense_value=?, speed_value=?, layout_url=?, artwork_url=?
         WHERE card_id=?
-    ''', (card.get_title(), card.get_subtitle(), card.get_text(), card.get_value(), card.get_attack_value(), card.get_range_value(), card.get_defense_value(), card.get_speed_value(), card.get_layout_url(), card.get_artwork_url(), card.get_card_id()))
+    ''', (card.get_card_type(), card.get_title(), card.get_subtitle(), card.get_main_text(), card.get_big_center_text(), card.get_small_center_text(), card.get_corner_text(), card.get_value(), card.get_attack_value(), card.get_range_value(), card.get_defense_value(), card.get_speed_value(), card.get_layout_url(), card.get_artwork_url(), card.get_card_id()))
 
     conn.commit()
     conn.close()
